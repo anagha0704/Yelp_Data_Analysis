@@ -43,7 +43,7 @@ This notebook focuses on the users and their contribution to the platform.
 
 The analysis utilizes the publicly available **Yelp Dataset**.
 
-* **Dataset Components:** The project typically works with the main JSON files including `business.json`, 'checkin.json', 'tip.json', `user.json`, `review.json`.
+* **Dataset Components:** The project typically works with the main JSON files including `business.json`, `checkin.json`, `tip.json`, `user.json`, `review.json`.
 ---
 
 ## Technologies and Environment
