@@ -43,7 +43,7 @@ This notebook focuses on the users and their contribution to the platform.
 
 The analysis utilizes the publicly available **Yelp Dataset**.
 
-* **Dataset Components:** The project typically works with the main JSON files including `business.json`, `user.json`, `review.json`, 'checkin.json', 'tip.json'.
+* **Dataset Components:** The project typically works with the main JSON files including `business.json`, 'checkin.json', 'tip.json', `user.json`, `review.json`.
 ---
 
 ## Technologies and Environment
@@ -75,13 +75,3 @@ To reproduce or run this analysis, the code must be executed in a Spark-enabled 
 ### 2. Local Execution (Alternative)
 
 Running this project locally requires configuring a local Spark instance (e.g., using `findspark` or `conda` environment). For simple review and minor testing, you can run the notebooks, but data loading and heavy processing steps will likely fail if a full Spark environment is not properly set up.
-
----
-
-## Key Findings and Takeaways
-
-*(**Developer Note:** This is the most crucial section for attracting attention. Replace these placeholders with your actual, specific, and impactful conclusions.)*
-
-* **Impactful Finding 1 (Business):** [Example: "Restaurants with 'Accepts Reservations' attribute show an average star rating $\mu = 4.2$, significantly higher than those without ($\mu = 3.6$), suggesting higher customer service standards are reflected in ratings."]
-* **Impactful Finding 2 (User Behavior):** [Example: "Users who are 'Elite' members contribute to only 5% of total reviews but their ratings, on average, are 0.15 stars lower than non-elite reviewers, indicating a stricter rating behavior."]
-* **Impactful Finding 3 (Geographical):** [Example: "The highest concentration of 5-star businesses is found in the 'Las Vegas' metro area, while 'Phoenix' shows the highest standard deviation in ratings, suggesting more variability in quality."]
